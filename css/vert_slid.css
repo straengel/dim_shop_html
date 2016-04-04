@@ -1,0 +1,62 @@
+/*vertical carusel*/
+.car .item {
+	margin: 10px 0;
+}
+.car .item:hover {
+	border-color: #bbc3c6
+}
+.car .item.active {
+	border-color: #bbc3c6
+}
+.thin {
+    max-width:122px;    
+}
+
+.carousel > .window {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+
+/*
+    This is the item wrapper,
+    it will be animated.
+*/
+.carousel ul {
+    list-style: none;
+    height: 10000px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0px;
+}
+
+/*
+    These are the items
+*/
+.carousel li {
+    margin: 3px 0 0;
+}
+.prev, .next {
+    width: 100%;
+    position: relative;
+    display: block;
+    left: 50%;
+    margin: 0px 0px 10px -17px;
+}
+.carousel li:first-child {
+    margin: 0;
+}
+.car {
+	width: 122px;
+	float: left;
+	margin: 20px;
+}
+
+.car  .arrow_up {
+	background: url("../img/arrow_top.png") center center no-repeat;
+}
+.car  .arrow_button { 
+	background: url("../img/arrow_bottom.png") center center no-repeat;
+}
+/*end main*/
